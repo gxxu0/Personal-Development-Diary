@@ -1,0 +1,20 @@
+body {
+  background-color: darkseagreen;
+}
+.snowflake {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: -8px;
+  /* animation: fall 10s linear; 애니메이션를 눈송이에 추가 */
+}
+@keyframes fall {
+  from {
+  }
+  to {
+    transform: translateY(100vh); /*눈송이가 끝까지 움직이게*/
+    opacity: 0;
+  }
+}
